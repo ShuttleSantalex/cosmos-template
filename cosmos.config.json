@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json.schemastore.org/cosmos-config",
+  "webpack": {
+    "overridePath": "./webpack.override.cosmos.js"
+  }
+}
