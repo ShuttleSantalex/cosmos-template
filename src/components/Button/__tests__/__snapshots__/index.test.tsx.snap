@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button matches snapshot 1`] = `
+Array [
+  <button onClick={[Function]}
+  >
+    Button
+  </button>,
+  <button onClick={[Function]}
+  >
+    Button primary
+  </button>,
+  <button onClick={[Function]}
+  >
+    Button secondary
+  </button>,
+  <button onClick={[Function]}
+  >
+    Button tertiary
+  </button>,
+]
+`;
