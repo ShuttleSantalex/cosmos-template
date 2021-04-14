@@ -33,8 +33,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "cosmos-template",
-  "author": "alex",
+  "name": "cosmos-template-test",
+  "author": "Alexander McLean-Janet",
   "module": "dist/cosmos-template.esm.js",
   "size-limit": [
     {
@@ -81,5 +81,15 @@
     "styled-components": "^5.2.3",
     "tailwindcss": "^2.1.1",
     "twin.macro": "^2.3.2"
-  }
+  },
+  "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShuttleSantalex/cosmos-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShuttleSantalex/cosmos-template/issues"
+  },
+  "homepage": "https://github.com/ShuttleSantalex/cosmos-template#readme"
 }
