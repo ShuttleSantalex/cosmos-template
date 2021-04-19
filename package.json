@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "cosmos-template-test",
+  "name": "@shuttlerock/cosmos-template-test",
   "author": "Alexander McLean-Janet",
   "module": "dist/cosmos-template.esm.js",
   "size-limit": [
