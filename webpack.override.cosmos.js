@@ -23,9 +23,13 @@ module.exports = (webpackConfig, env) => {
           test: /\.svg$/,
           use: ['@svgr/webpack', 'url-loader'],
         },
-        {
-          test: /\.(png|jpg|jpeg|gif)$/i,
-          type: 'asset/resource',
+        { // Loader for images
+          test: /\.(jpe?g|png|jpg)$/i,
+          use: [
+            {
+              loader: 'file-loader',
+            }
+          ]
         },
       ]
     },
