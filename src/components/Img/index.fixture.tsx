@@ -1,4 +1,6 @@
 import React from "react";
-import Image from ".";
+import { Img } from ".";
+import image from './pablo.jpg';
 
-export default <Image />
+
+export default <Img src={image} />

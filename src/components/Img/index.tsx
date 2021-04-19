@@ -1,10 +1,7 @@
 import React from 'react';
-import image from './pablo.jpg';
 
-const Img = () => {
+export const Img = (src: any) => {
   return (
-    <img src={image} />
+    <img src={src} />
   );
 };
-
-export default Img;

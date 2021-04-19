@@ -1,3 +1,4 @@
-import {ReactComponent as Chevron} from './chevron.svg'
+import {ReactComponent as ChevronSVG} from './chevron.svg'
+import React from "react";
 
-export default Chevron
+export const Chevron = () => <ChevronSVG />;
