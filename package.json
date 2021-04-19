@@ -87,7 +87,7 @@
     "twin.macro": "^2.3.2"
   },
   "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
-  "main": "babel.config.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ShuttleSantalex/cosmos-template.git"
